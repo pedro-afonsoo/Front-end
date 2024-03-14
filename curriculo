@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Afonso - Curriculum Vitae</title>
+    <style>
+        body {
+            background-color: #d8d6d6;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            border-radius: 0 0 20px 20px;
+        }
+
+        header img {
+            border-radius: 50%;
+            max-width: 150px;
+            border: 2px solid #fff;
+        }
+
+        h1 {
+            margin: 10px 0;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="minha foto.jpg" width="150px" alt="Minha Foto">
+        <h1>Pedro Afonso Machado Vasconcelos</h1>
+        <p>Endereço: Brasil | Telefone: 31980216040 | E-mail: pedroafonsomachado116@gmail.com</p>
+    </header>
+
+    <section>
+        <h2>Resumo Profissional</h2>
+        <p>Sou um estudante de Engenharia de Software no primeiro período, buscando oportunidades para aplicar e expandir meus conhecimentos na área. Concluí o Ensino Médio no Colégio Marista Padre Eustáquio, desenvolvendo uma base sólida em aprendizado e trabalho em equipe. Estou entusiasmado para contribuir em projetos desafiadores e crescer profissionalmente na área de desenvolvimento de software.</p>
+    </section>
+
+    <section>
+        <h2>Educação</h2>
+        <ul class="education">
+            <li>
+                <strong>Colégio Marista Padre Eustáquio</strong> - Ensino Médio, 2023
+            </li>
+            <li>
+                <strong>PUC</strong> - Engenharia de Software, 1º Período (Atual)
+            </li>
+        </ul>
+    </section>
+</body>
+
+</html>
