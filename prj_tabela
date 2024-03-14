@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Layout</title>
+    <style>
+        /* Estilos para melhor visualização apenas */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+        header, aside, main {
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Header 1</h2>
+            <div>Elemento 1</div>
+            <div>Elemento 2</div>
+            <div>Elemento 3</div>
+            <form>
+                <input type="text" placeholder="Campo 1">
+                <input type="text" placeholder="Campo 2">
+                <button type="submit">Enviar</button>
+            </form>
+        </header>
+        <aside>
+            <h2>Barra Lateral 1</h2>
+            <div>Elemento 1</div>
+            <div>Elemento 2</div>
+            <div>Elemento 3</div>
+        </aside>
+        <main>
+            <h2>Conteúdo Central 1</h2>
+            <div>Elemento 1</div>
+            <div>Elemento 2</div>
+            <div>Elemento 3</div>
+        </main>
+    </div>
+    
+    <div class="container">
+        <header>
+            <h2>Header 2</h2>
+            <div>Elemento 1</div>
+            <div>Elemento 2</div>
+            <div>Elemento 3</div>
+            <form>
+                <input type="text" placeholder="Campo 1">
+                <input type="text" placeholder="Campo 2">
+                <button type="submit">Enviar</button>
+            </form>
+        </header>
+        <aside>
+            <h2>Barra Lateral 2</h2>
+            <div>Elemento 1</div>
+            <div>Elemento 2</div>
+            <div>Elemento 3</div>
+        </aside>
+        <main>
+            <h2>Conteúdo Central 2</h2>
+            <div>Elemento 1</div>
+            <div>Elemento 2</div>
+            <div>Elemento 3</div>
+        </main>
+    </div>
+    
+    <div class="container">
+        <header>
+            <h2>Header 3</h2>
+            <div>Elemento 1</div>
+            <div>Elemento 2</div>
+            <div>Elemento 3</div>
+            <form>
+                <input type="text" placeholder="Campo 1">
+                <input type="text" placeholder="Campo 2">
+                <button type="submit">Enviar</button>
+            </form>
+        </header>
+        <aside>
+            <h2>Barra Lateral 3</h2>
+            <div>Elemento 1</div>
+            <div>Elemento 2</div>
+            <div>Elemento 3</div>
+        </aside>
+        <main>
+            <h2>Conteúdo Central 3</h2>
+            <div>Elemento 1</div>
+            <div>Elemento 2</div>
+            <div>Elemento 3</div>
+        </main>
+    </div>
+</body>
+</html>
